@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.muhitkhan.xylophonemk">
    <application
-        android:label="xylophonemk"
+        android:label="Xylophone MK"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
