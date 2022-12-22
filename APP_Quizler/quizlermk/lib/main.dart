@@ -11,6 +11,7 @@ class QuizlerMK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Quizler MK',
       home: Scaffold(
         backgroundColor: Colors.grey.shade900,
@@ -93,6 +94,10 @@ class _QuizePageState extends State<QuizePage> {
                   if (Answer[qs_no] == true) {
                     setState(
                       () {
+                        if (qs_no == 9) {
+                          qs_no = -1;
+                          ScoreKeeper = [];
+                        }
                         qs_no++;
                         ScoreKeeper.add(
                           Icon(
@@ -105,6 +110,10 @@ class _QuizePageState extends State<QuizePage> {
                   } else {
                     setState(
                       () {
+                        if (qs_no == 9) {
+                          qs_no = -1;
+                          ScoreKeeper = [];
+                        }
                         qs_no++;
                         ScoreKeeper.add(
                           Icon(
@@ -137,6 +146,10 @@ class _QuizePageState extends State<QuizePage> {
                   if (Answer[qs_no] == false) {
                     setState(
                       () {
+                        if (qs_no == 9) {
+                          qs_no = -1;
+                          ScoreKeeper = [];
+                        }
                         qs_no++;
                         ScoreKeeper.add(
                           Icon(
@@ -149,6 +162,10 @@ class _QuizePageState extends State<QuizePage> {
                   } else {
                     setState(
                       () {
+                        if (qs_no == 9) {
+                          qs_no = -1;
+                          ScoreKeeper = [];
+                        }
                         qs_no++;
                         ScoreKeeper.add(
                           Icon(
