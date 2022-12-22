@@ -1,6 +1,6 @@
 # quizlermk
 
-A new Flutter project.
+A simple app that performs quizz with fun..
 
 ## Getting Started
 
