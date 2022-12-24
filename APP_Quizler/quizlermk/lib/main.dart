@@ -176,7 +176,7 @@ class _QuizePageState extends State<QuizePage> {
                       },
                     );
                   }
-                  print("FALSE  Button got pressed");
+                  print("FALSE Button got pressed");
                 },
               ),
             ),
