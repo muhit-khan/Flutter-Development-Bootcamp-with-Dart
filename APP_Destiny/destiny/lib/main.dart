@@ -25,6 +25,8 @@ class StoryPage extends StatefulWidget {
 class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: ,
+    );
   }
 }
