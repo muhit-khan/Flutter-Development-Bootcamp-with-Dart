@@ -8,6 +8,7 @@ class Destiny extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Story Page',
       theme: ThemeData.dark(),
       home: StoryPage(),
