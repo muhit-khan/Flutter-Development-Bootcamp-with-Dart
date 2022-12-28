@@ -9,7 +9,7 @@ class Destiny extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Story Page',
-      theme
+      theme: ThemeData.dark(),
       home: StoryPage(),
       ),
     );
