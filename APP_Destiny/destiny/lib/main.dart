@@ -31,7 +31,7 @@ class _StoryPageState extends State<StoryPage> {
           child: Text(
             'Testing',
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 10,
             ),
           ),
         ),
