@@ -11,7 +11,6 @@ class Destiny extends StatelessWidget {
       title: 'Story Page',
       theme: ThemeData.dark(),
       home: StoryPage(),
-      ),
     );
   }
 }
