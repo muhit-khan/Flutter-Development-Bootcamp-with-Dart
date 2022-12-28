@@ -28,7 +28,12 @@ class _StoryPageState extends State<StoryPage> {
     return Scaffold(
       body: Container(
         child: Center(
-          child: Text('Testing'),
+          child: Text(
+            'Testing',
+            style: TextStyle(
+              fontSize: 20,
+            ),
+          ),
         ),
       ),
     );
