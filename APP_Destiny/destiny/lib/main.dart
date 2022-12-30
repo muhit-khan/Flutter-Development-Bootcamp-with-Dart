@@ -34,15 +34,38 @@ class _StoryPageState extends State<StoryPage> {
             fit: BoxFit.cover,
           ),
         ),
-        child: Center(
-          child: Text(
-            "Testing",
-            style: TextStyle(
-              fontSize: 40,
+        child: Column(
+          children: [
+            Center(
+              child: Text(
+                "Story 0",
+                style: TextStyle(
+                  fontSize: 40,
+                ),
+              ),
             ),
-          ),
+            TextButton(
+              onPressed: () {
+                print("Button 1 got pressed"),
+              }
+            ),
+          ],
         ),
       ),
     );
+  }
+}
+
+class callStory1 extends StatefulWidget {
+  const callStory1({super.key});
+
+  @override
+  State<callStory1> createState() => _callStory1State();
+}
+
+class _callStory1State extends State<callStory1> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
