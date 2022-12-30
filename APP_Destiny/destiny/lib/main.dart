@@ -28,11 +28,17 @@ class _StoryPageState extends State<StoryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        decoration: new BoxDecoration(
+          image: new DecorationImage(
+            image: new AssetImage("images/background.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: Text(
-            'Testing',
+            "Testing",
             style: TextStyle(
-              fontSize: 50,
+              fontSize: 40,
             ),
           ),
         ),
