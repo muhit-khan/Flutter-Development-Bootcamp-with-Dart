@@ -67,7 +67,7 @@ class _StoryPageState extends State<StoryPage> {
                     color: Colors.yellow.shade900,
                   ),
                   onPressed: () {
-                    print("Button 1 got pressed");
+                    print("Button 2 got pressed");
                   },
                 ),
               ),
