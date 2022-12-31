@@ -48,7 +48,7 @@ class _StoryPageState extends State<StoryPage> {
               Center(
                 child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.red,
                   ),
                   child: Container(
                     color: Colors.yellow.shade900,
@@ -61,7 +61,7 @@ class _StoryPageState extends State<StoryPage> {
               Center(
                 child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.black,
+                    backgroundColor: Colors.blue,
                   ),
                   child: Container(
                     color: Colors.yellow.shade900,
