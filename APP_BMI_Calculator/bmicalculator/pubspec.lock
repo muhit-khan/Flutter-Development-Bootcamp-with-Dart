@@ -42,7 +42,7 @@ packages:
       name: cupertino_icons
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.5"
+    version: "0.1.3"
   fake_async:
     dependency: transitive
     description:
@@ -55,25 +55,18 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-  lints:
-    dependency: transitive
+  font_awesome_flutter:
+    dependency: "direct main"
     description:
-      name: lints
+      name: font_awesome_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.1"
+    version: "8.12.0"
   matcher:
     dependency: transitive
     description:
