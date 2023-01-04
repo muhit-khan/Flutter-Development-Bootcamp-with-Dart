@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
+
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
