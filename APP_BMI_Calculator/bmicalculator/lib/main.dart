@@ -75,8 +75,6 @@ class _MyHomePageState extends State<MyHomePage> {
           // "Toggle Debug Paint" action from the Flutter Inspector in Android
           // Column has various properties to control how it sizes itself and
 
-          // center the children vertically; the main axis here is the vertical
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
