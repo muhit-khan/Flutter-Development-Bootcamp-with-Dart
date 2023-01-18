@@ -71,7 +71,6 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
           // Column has various properties to control how it sizes itself and
 
           mainAxisAlignment: MainAxisAlignment.center,
