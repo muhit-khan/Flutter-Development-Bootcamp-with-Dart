@@ -71,8 +71,6 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
-          // Column has various properties to control how it sizes itself and
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
